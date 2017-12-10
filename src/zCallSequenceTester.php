@@ -30,6 +30,7 @@ $ituran = new Ituran(
 
 $cep = '01001001';
 $cpf = 'x';
+
 $fipe = '025227-1';
 $year = 2016;
 
@@ -104,7 +105,7 @@ $platform = new Platform(
     'EEE9083',
     '9BWZZZ377VT004251',
     $year,
-    null,
+    'AZUL',
     '44455498',
     false,
     false,
@@ -140,7 +141,7 @@ $directDebit = new DirectDebit(
     2
 );
 
-$due_date = (new Datetime())->modify('next day');
+$due_date = (new Datetime())->modify('next week');
 
 $serviceFee = new Fee(
     21,

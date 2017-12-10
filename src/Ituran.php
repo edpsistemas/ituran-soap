@@ -5,6 +5,8 @@ namespace App\Ituran;
 use SoapClient;
 use SoapHeader;
 
+use SimpleXMLElement;
+
 class Ituran
 {
     protected $client;

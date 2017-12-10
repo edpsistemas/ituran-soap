@@ -1,5 +1,5 @@
 {
-	"name": "epdistemas/ituran-soap",
+	"name": "edpistemas/ituran-soap",
 	"description": "WIP: A SOAP Client to call Ituran Insurance WebServices.",
 	"license": "Apache-2.0",
     "require-dev": {

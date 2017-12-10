@@ -4,6 +4,9 @@ namespace App\Ituran;
 
 class GetPaymentOptions
 {
+    const OPTION_MONTHLY = 2;
+    const OPTION_INSTALLATION = 5;
+
     public $serviceValue = null;
     public $tipoCobranca = null;
 
